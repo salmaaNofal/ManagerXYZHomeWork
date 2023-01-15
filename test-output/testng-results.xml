@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-15T23:43:42 EET" name="Default suite" finished-at="2023-01-15T23:43:48 EET" duration-ms="5425">
+    <groups>
+    </groups>
+    <test started-at="2023-01-15T23:43:42 EET" name="Default test" finished-at="2023-01-15T23:43:48 EET" duration-ms="5425">
+      <class name="Managers.login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Managers.login@60dd3c23]" started-at="2023-01-15T23:43:42 EET" name="setup" finished-at="2023-01-15T23:43:45 EET" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginAsManagerAndAddCustomer()[pri:1, instance:Managers.login@60dd3c23]" started-at="2023-01-15T23:43:45 EET" name="LoginAsManagerAndAddCustomer" finished-at="2023-01-15T23:43:47 EET" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsManagerAndAddCustomer -->
+        <test-method signature="OpenAccount()[pri:2, instance:Managers.login@60dd3c23]" started-at="2023-01-15T23:43:47 EET" name="OpenAccount" finished-at="2023-01-15T23:43:47 EET" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccount -->
+        <test-method signature="CustomersPage()[pri:3, instance:Managers.login@60dd3c23]" started-at="2023-01-15T23:43:47 EET" name="CustomersPage" finished-at="2023-01-15T23:43:48 EET" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomersPage -->
+      </class> <!-- Managers.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
